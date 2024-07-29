@@ -81,11 +81,11 @@ final class CustomNotificationStudy: ObservableObject {
   }
 
   func sendRandomNotificationButtonTapped() {
-    self.withRandomNumberGenerator {
-      self.countNotification.post(
-        Int.random(in: 0 ... 1_000, using: &$0)
-      )
-    }
+//    self.withRandomNumberGenerator {
+//      self.countNotification.post(
+//        Int.random(in: 0 ... 1_000, using: &$0)
+//      )
+//    }
   }
 }
 
